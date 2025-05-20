@@ -11,6 +11,8 @@ Designed for speed, efficiency, and correctness, it implements the full compress
 
 Following image explains basic logic of Huffman algorithm.
 
+
+
 <p align="center">
   <img src="assets/huffman_tree.png" alt="Huffman Tree" width="500"/><br>
   <em>Visual representation of a Huffman Tree — leaf nodes contain symbols along with their frequencies, while internal nodes represent combined frequencies. 
