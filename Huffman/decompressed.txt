@@ -1,0 +1,16 @@
+this is an example of a huffman tree. huffman coding is a lossless data compression algorithm. 
+it was developed by david a. huffman while he was a phd student at mit, and it is widely used in various forms today. 
+the algorithm assigns variable-length codes to input characters, with shorter codes assigned to more frequent characters. 
+this ensures that the overall size of the encoded data is smaller than the original, especially when there are many repeated characters. 
+
+for instance, in this sample text, the character 'e' appears many times, so it might be given a shorter code than less frequent characters 
+like 'z' or 'q'. this way, when we encode the entire input, we save space. the more predictable the input is, the more efficient 
+the compression becomes. 
+
+huffman coding is the foundation of several real-world formats like deflate (used in zip files), gzip, and png images. 
+in practice, the encoding and decoding processes involve building a binary tree based on character frequencies, 
+then traversing the tree to assign binary codes.
+
+this example text is meant to simulate a realistic input, with varying character frequencies, to test your huffman 
+compressor and decompressor implementation. if your algorithm works correctly, it should reduce the size of this file 
+and be able to reconstruct it perfectly during decompression.
