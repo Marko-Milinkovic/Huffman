@@ -16,7 +16,7 @@ Following image explains basic logic of Huffman algorithm.
 <p align="center">
   <img src="assets/huffman_tree.png" alt="Huffman Tree" width="500"/><br>
   <em>Visual representation of a Huffman Tree — leaf nodes contain symbols along with their frequencies, while internal nodes represent combined frequencies. 
-    Binary codes are assigned by traversing the tree: taking the left edge appends a '0', and the right edge appends a '1'. 
+    Binary codes are assigned by traversing the tree: taking the left branch appends a '0', and the right branch appends a '1'. 
     For example, a symbol at the path "left → right → left" would get the code "010" ( in the given example "010" would be "a" - so 3 bits instead of 8 [standard ASCII] ). 
     Frequent symbols appear closer to the root, resulting in shorter codes and reduced overall file size.</em>
 </p>
