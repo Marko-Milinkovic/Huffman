@@ -1,0 +1,12 @@
+.vs/
+x64/
+Huffman/x64/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.suo
+*.ipch/
+*.VC.db*
+*.exe
