@@ -36,6 +36,7 @@ Symbols with higher frequency are placed closer to the root, receiving shorter c
 - **Custom binary format** for decompression compatibility
 - **Bit-level symbol encoding** for optimal file size reduction
 - **Compression metrics**: shows input size, output size, compression ratio, space savings and bits per symbol
+- **Code table analysis**: binary code length of each symbol, frequency distribution
 - **Robust testing suite** covering edge cases including empty files and single-symbol inputs
 - **Dynamic memory management** with rigorous leak-free guarantees 
   
