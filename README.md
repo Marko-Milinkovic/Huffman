@@ -1,4 +1,4 @@
-# Huffman Algorithm based File Compressor
+# Huffman Algorithm based Compression Engine
 
 [![Code Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)](https://github.com/Marko-Milinkovic/Huffman-coding)
 ![C++ Standard](https://img.shields.io/badge/C%2B%2B-17-blue)
